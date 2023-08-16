@@ -77,8 +77,15 @@ const App = () => {
       </a>
       
     </div>
-    
+   
+    <hr />
     <button className='btb-menu2'>+ incluir Caracteristica</button>
+
+    <div className='btn-footer'>
+      <button className='btn-cancelar'>Cancelar</button>
+      <button className='btn-salvar'>Salvar</button>
+
+    </div>
          
   </div>
   );

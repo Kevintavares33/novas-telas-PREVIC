@@ -2,7 +2,7 @@
   max-width: 1300px;
   margin: 0 auto 0;
   padding: 20px;
-  margin-left: 17%;
+  margin-left: 12%;
 
 }
 h2{
@@ -14,6 +14,7 @@ font-weight: 300;
 line-height: normal;
 }
 h6{
+  margin-bottom: 10px;
   color: #000;
   font-variant-numeric: lining-nums proportional-nums;
   font-family: 'Rawline';
@@ -63,11 +64,11 @@ border-radius: 4px;
 }
 
 .input-nome{
-  width: 829px;
+  width: 529px;
   height: 32.000px;
-flex-shrink: 0;
-background-color: #cfcdcd;
-border-radius: 4px;
+  flex-shrink: 0;
+  background-color: #cfcdcd;
+  border-radius: 4px;
 }
 p{
   margin-top: -20px;
@@ -76,7 +77,9 @@ p{
   font-style: normal;
   font-weight: 600;
   align-items: center;
-  text-align:left;}
+  text-align:left;
+}
+
 .dados-do-mandato{
   color: #000;
 font-variant-numeric: lining-nums proportional-nums;
@@ -142,8 +145,8 @@ line-height: normal;
 }
 .outros{
   display: flex;
-
-  margin-bottom: 15px;
+  margin-top: 20px;
+  margin-bottom: 16px;
   
 }
   /*.input-data-final{
@@ -188,6 +191,7 @@ line-height: normal;
 .radio-group {
   display: flex;
   gap: 10px; 
+  margin-top: 25px;
 }
 
 .radio-button {
@@ -235,4 +239,43 @@ a{
   cursor: pointer;
   margin-top: 15px;
   border:none;
+}
+/* botoes rodapé */
+.btn-footer{
+  margin-top: 50px;
+  margin-left: 710px;
+  
+}
+.btn-cancelar{
+  margin-right:30px ;
+  border-radius: 10px;
+  background-color:#ffff;
+  color: #1351B4 ;
+  border: none;
+  width: Hug (120px);
+  height: Fixed (39px);
+  top: 761px;
+  left: 1109px;
+  padding: 8px 24px 8px 24px;
+  border-radius: 20px;
+  border: 1px;
+  border: 1px solid #1351B4;
+  gap: 8px;
+  cursor: pointer; 
+
+}
+.btn-salvar{
+  border-radius: 10px;
+  background-color: #1351B4;
+  color: #ffffff;
+  border: none;
+  width: Hug (98px);
+  height: Fixed (39px);
+  top: 761px;
+  left: 1269px;
+  padding: 8px 24px 8px 24px;
+  border-radius: 20px;
+  gap: 8px;
+  cursor: pointer; 
+
 }
